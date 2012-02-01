@@ -66,7 +66,7 @@ CKEDITOR.editorConfig = function( config )
     [
         ['Cut','Copy','Paste','PasteText','PasteFromWord',],
         ['Undo','Redo','-'],
-        ['Font','FontSize','Format'], ['TextColor'], 
+        ['Font','FontSize','Format'], ['TextColor','BGColor'], 
         ['Bold','Italic','Underline','Strike'], '/', ['NumberedList','BulletedList','-','Outdent','Indent','Blockquote'],
         ['JustifyLeft','JustifyCenter','JustifyRight','JustifyBlock'],
         ['Link','Unlink','Anchor'], ['Image', 'Attachment'],
