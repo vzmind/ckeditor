@@ -48,15 +48,26 @@ CKEDITOR.editorConfig = function( config )
   // works only with en, ru, uk locales
   config.extraPlugins = "embed,attachment";
   
+  config.font_names =
+    'Arial/Arial, Helvetica, sans-serif;' +
+    'Times New Roman/Times New Roman, Times, serif;' +
+    'Comic Sans MS/Comic Sans MS, cursive;' +
+    'Courier New/Courier New, Courier, monospace;' +
+    'Georgia/Georgia, serif;' +
+    'Lucida Sans Unicode/Lucida Sans Unicode, Lucida Grande, sans-serif;' +
+    'Tahoma/Tahoma, Geneva, sans-serif;' +
+    'Trebuchet MS/Trebuchet MS, Helvetica, sans-serif;' +
+    'Verdana/Verdana, Geneva, sans-serif';
+  
   /* Toolbars */
   config.toolbar = 'Easy';
   
   config.toolbar_Easy =
     [
         ['Cut','Copy','Paste','PasteText','PasteFromWord',],
-        ['Undo','Redo','-','SelectAll','RemoveFormat'],
-        ['Styles','Format'], ['Subscript', 'Superscript', 'TextColor'], ['Maximize','-','About'], '/',
-        ['Bold','Italic','Underline','Strike'], ['NumberedList','BulletedList','-','Outdent','Indent','Blockquote'],
+        ['Undo','Redo','-'],
+        ['Font','FontSize','Format'], ['TextColor'], 
+        ['Bold','Italic','Underline','Strike'], '/', ['NumberedList','BulletedList','-','Outdent','Indent','Blockquote'],
         ['JustifyLeft','JustifyCenter','JustifyRight','JustifyBlock'],
         ['Link','Unlink','Anchor'], ['Image', 'Attachment'],
     ];
