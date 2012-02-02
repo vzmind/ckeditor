@@ -46,7 +46,7 @@ CKEDITOR.editorConfig = function( config )
   
   /* Extra plugins */
   // works only with en, ru, uk locales
-  config.extraPlugins = "embed,attachment";
+  config.extraPlugins = "";
   
   config.font_names =
     'Arial/Arial, Helvetica, sans-serif;' +
@@ -69,6 +69,6 @@ CKEDITOR.editorConfig = function( config )
         ['Font','FontSize','Format'], ['TextColor'], 
         ['Bold','Italic','Underline','Strike'], '/', ['NumberedList','BulletedList','-','Outdent','Indent','Blockquote'],
         ['JustifyLeft','JustifyCenter','JustifyRight','JustifyBlock'],
-        ['Link','Unlink','Anchor'], ['Image', 'Attachment'],
+        ['Link','Unlink','Anchor'], ['Image'],
     ];
 };
